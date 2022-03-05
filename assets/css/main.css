@@ -2538,10 +2538,6 @@ table.alt tbody tr td {
   -webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
   -ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
   transition: opacity 1.25s ease, transform 0.5s ease;
-  -moz-transition-delay: 0s;
-  -webkit-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
   display: block;
 }
 @media screen and (max-width: 1280px) {
