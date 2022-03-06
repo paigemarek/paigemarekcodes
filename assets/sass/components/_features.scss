@@ -30,6 +30,24 @@
 			> :last-child {
 				margin-bottom: 0;
 			}
+			// * {
+				// text-decoration: none;
+			// }
+			.image {
+				display: inline-block;
+				padding: 0.65em;
+				border-radius: 100%;
+				border: solid 1px;
+			  }
+			 .image img {
+				display: block;
+				border-radius: 100%;
+				width: 13em;
+			  }
+
+			  .image:hover img {
+				opacity: 0.3;
+			  }			  	
 		}
 
 		@include breakpoint('<=medium') {

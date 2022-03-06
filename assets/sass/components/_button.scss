@@ -60,6 +60,10 @@
 		}
 	}
 
+	#submit {
+		margin-right: auto;
+	}
+
 	@mixin color-button($p: null) {
 		input[type="submit"],
 		input[type="reset"],

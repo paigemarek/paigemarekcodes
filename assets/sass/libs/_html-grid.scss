@@ -106,6 +106,7 @@
 						@for $i from 1 through $cols {
 							> .col-#{$i}#{$suffix} {
 								width: $unit * $i;
+								padding-bottom: .75rem;
 							}
 
 							> .off-#{$i}#{$suffix} {
