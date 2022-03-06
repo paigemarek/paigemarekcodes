@@ -76,46 +76,5 @@
 		}
 
 		@include breakpoint('<=small') {
-			display: block;
-			width: 20em;
-			max-width: 100%;
-			margin: 0 auto _size(element-margin) auto;
-			// ul {
-			// 	float: left;
-
-			.jobs {
-				li {
-
-					display: flex;
-					flex-wrap: wrap;
-					&.style1 {
-						width: 50%;
-					}
-					&.style2 {
-						width: 50%;
-					}
-					&:first-child {
-						// width: 50%;
-						border-bottom-left-radius: 0;
-						border-top-right-radius: _size(border-radius);
-					}
-
-					&:last-child {
-						// width: 50%;
-						border-top-right-radius: 0;
-						border-bottom-left-radius: _size(border-radius);
-					}
-
-					.icon {
-						&:before {
-							font-size: 3.75rem;
-						}
-					}
-
-					strong, b {
-						font-size: 2.5em;
-					}
-				}
-			}
 		}
 	}

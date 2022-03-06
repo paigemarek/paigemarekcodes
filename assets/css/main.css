@@ -2476,39 +2476,6 @@ table.alt tbody tr td {
     font-size: 1.5em;
   }
 }
-@media screen and (max-width: 736px) {
-  .jobs {
-    display: block;
-    width: 20em;
-    max-width: 100%;
-    margin: 0 auto 2em auto;
-  }
-  .jobs .jobs li {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .jobs .jobs li.style1 {
-    width: 50%;
-  }
-  .jobs .jobs li.style2 {
-    width: 50%;
-  }
-  .jobs .jobs li:first-child {
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 8px;
-  }
-  .jobs .jobs li:last-child {
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 8px;
-  }
-  .jobs .jobs li .icon:before {
-    font-size: 3.75rem;
-  }
-  .jobs .jobs li strong, .jobs .jobs li b {
-    font-size: 2.5em;
-  }
-}
-
 /* Spotlight */
 .spotlight {
   display: -moz-flex;
