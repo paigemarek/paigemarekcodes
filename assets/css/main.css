@@ -1628,7 +1628,7 @@ input[type=reset].primary,
 input[type=button].primary,
 button.primary,
 .button.primary {
-  background-color: #8cc9f0;
+  background-color: #0c354e;
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -1637,14 +1637,14 @@ input[type=reset].primary:hover,
 input[type=button].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #9acff2;
+  background-color: #0e3e5b;
 }
 input[type=submit].primary:active,
 input[type=reset].primary:active,
 input[type=button].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #7ec3ee;
+  background-color: #0a2c41;
 }
 input[type=submit].primary.icon:before,
 input[type=reset].primary.icon:before,
@@ -1816,8 +1816,8 @@ input[type=password]:focus,
 input[type=email]:focus,
 select:focus,
 textarea:focus {
-  border-color: #8cc9f0;
-  box-shadow: 0 0 0 1px #8cc9f0;
+  border-color: #0c354e;
+  box-shadow: 0 0 0 1px #0c354e;
 }
 
 select {
@@ -1845,8 +1845,8 @@ input[type=radio]:checked + label:before {
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
-  border-color: #8cc9f0;
-  box-shadow: 0 0 0 1px #8cc9f0;
+  border-color: #0c354e;
+  box-shadow: 0 0 0 1px #0c354e;
 }
 
 ::-webkit-input-placeholder {
@@ -1947,7 +1947,7 @@ input[type=radio]:focus + label:before {
   color: #9bb2e1;
 }
 .icon.style5 {
-  color: #8cc9f0;
+  color: #0c354e;
 }
 @media screen and (max-width: 1680px) {
   .icon.major:before {
@@ -2818,7 +2818,7 @@ body.is-preload #header.alt .logo {
 #main input[type=button].primary,
 #main button.primary,
 #main .button.primary {
-  background-color: #8cc9f0;
+  background-color: #0c354e;
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -2827,14 +2827,14 @@ body.is-preload #header.alt .logo {
 #main input[type=button].primary:hover,
 #main button.primary:hover,
 #main .button.primary:hover {
-  background-color: #9acff2;
+  background-color: #0e3e5b;
 }
 #main input[type=submit].primary:active,
 #main input[type=reset].primary:active,
 #main input[type=button].primary:active,
 #main button.primary:active,
 #main .button.primary:active {
-  background-color: #7ec3ee;
+  background-color: #0a2c41;
 }
 #main input[type=submit].primary.icon:before,
 #main input[type=reset].primary.icon:before,
@@ -2859,8 +2859,8 @@ body.is-preload #header.alt .logo {
 #main input[type=email]:focus,
 #main select:focus,
 #main textarea:focus {
-  border-color: #8cc9f0;
-  box-shadow: 0 0 0 1px #8cc9f0;
+  border-color: #0c354e;
+  box-shadow: 0 0 0 1px #0c354e;
 }
 #main select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dddddd' /%3E%3C/svg%3E");
@@ -2886,8 +2886,8 @@ body.is-preload #header.alt .logo {
 }
 #main input[type=checkbox]:focus + label:before,
 #main input[type=radio]:focus + label:before {
-  border-color: #8cc9f0;
-  box-shadow: 0 0 0 1px #8cc9f0;
+  border-color: #0c354e;
+  box-shadow: 0 0 0 1px #0c354e;
 }
 #main ::-webkit-input-placeholder {
   color: rgba(99, 99, 99, 0.25) !important;
@@ -2928,10 +2928,10 @@ body.is-preload #header.alt .logo {
 }
 #main header.major h2:after {
   background-color: #dddddd;
-  background-image: -moz-linear-gradient(90deg, #6441a5, #a89cc8, #8cc9f0);
-  background-image: -webkit-linear-gradient(90deg, #6441a5, #a89cc8, #8cc9f0);
-  background-image: -ms-linear-gradient(90deg, #6441a5, #a89cc8, #8cc9f0);
-  background-image: linear-gradient(90deg, #6441a5, #a89cc8, #8cc9f0);
+  background-image: -moz-linear-gradient(90deg, #6441a5, #a89cc8, #0c354e);
+  background-image: -webkit-linear-gradient(90deg, #6441a5, #a89cc8, #0c354e);
+  background-image: -ms-linear-gradient(90deg, #6441a5, #a89cc8, #0c354e);
+  background-image: linear-gradient(90deg, #6441a5, #a89cc8, #0c354e);
 }
 #main table tbody tr {
   border-color: #dddddd;
